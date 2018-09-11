@@ -15,4 +15,13 @@
   </p>
   <p>Some more text here</p>
   <?php echo 'Some more php code here' ?>
+  <footer>
+    <p>&copy;
+      <?php
+        echo date('Y');
+        echo ' Today is ';
+        echo date("F d, Y");
+      ?>
+    </p>
+  </footer>
 </body>
